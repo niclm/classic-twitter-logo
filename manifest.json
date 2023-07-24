@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Classic Twitter Logo",
+  "description": "Just for fun 🥳",
+  "version": "1.0",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": [
+    "https://twitter.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["twitter.js"]
+    }
+  ]
+}
