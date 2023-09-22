@@ -1,5 +1,5 @@
 const replaceLogo = () => {
-    const element = document.querySelector('a[aria-label="Twitter"]')
+    const element = document.querySelector('a[aria-label="X"]')
 
     if (element && element.getAttribute('logo-replaced') !== 'true') {
 
